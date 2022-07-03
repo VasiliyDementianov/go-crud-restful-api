@@ -1,5 +1,6 @@
 create-db:
 	PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE go_crud_restful_api;'
+	PGPASSWORD=postgres psql -h localhost -U postgres -c 'CREATE DATABASE go_crud_restful_api_test;'
 
 #-------------------------------------#
 
