@@ -5,4 +5,4 @@ https://levelup.gitconnected.com/dockerized-crud-restful-api-with-go-gorm-jwt-po
 https://levelup.gitconnected.com/deploying-dockerized-golang-api-on-kubernetes-with-postgresql-mysql-d190e27ac09f  
 
 ## TODO:  
-- update users // error: pq: column "update_at" of relation "users" does not exist
+- update users // error: pq: column "update_at" of relation "users" does not exist  

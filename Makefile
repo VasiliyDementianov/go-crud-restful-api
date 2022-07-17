@@ -4,6 +4,22 @@ create-db:
 
 #-------------------------------------#
 
+docker-up:
+	docker-compose up
+
+docker-up-build:
+	docker-compose up --build
+
+docker-up-d:
+	docker-compose up -d
+
+docker-down:
+	docker-compose down
+
+docker-down-volumes:
+	docker-compose down --remove-orphans --volumes 
+#-------------------------------------#
+
 all-go-test:
 	go test -v ./tests/...
 
