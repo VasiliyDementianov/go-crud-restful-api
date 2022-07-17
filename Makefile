@@ -4,6 +4,11 @@ create-db:
 
 #-------------------------------------#
 
+all-go-test:
+	go test -v ./tests/...
+
+#-------------------------------------#
+
 test-home:
 	curl --request GET \
   	--url http://localhost:8080/
