@@ -18,6 +18,10 @@ docker-down:
 
 docker-down-volumes:
 	docker-compose down --remove-orphans --volumes 
+
+docker-test:
+	docker-compose -f docker-compose.test.yml up --build --abort-on-container-exit
+
 #-------------------------------------#
 
 all-go-test:

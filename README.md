@@ -6,3 +6,7 @@ https://levelup.gitconnected.com/deploying-dockerized-golang-api-on-kubernetes-w
 
 ## TODO:  
 - update users // error: pq: column "update_at" of relation "users" does not exist  
+
+## FAQ
+docker container ls  
+docker inspect <container_id> | grep IPAddress  
